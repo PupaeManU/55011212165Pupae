@@ -25,8 +25,9 @@ class TipCalculator {
     
         let possibleTipsInferred = [0.15, 0.18, 0.20]
         let possibleTipsExplicit:[Double] = [0.15, 0.18, 0.20]
-       
-        var retval = Dictionary<Int, Double>()
+        var numberOfItems = possibleTipsInferred.count
+    
+        var retval = [Int: Double]()
         for possibleTip in possibleTipsInferred {
             let intPct = Int(possibleTip*100)
         
