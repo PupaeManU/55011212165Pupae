@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDC2B3871AA98DCA00096643"
-               BuildableName = "work_Segue.app"
-               BlueprintName = "work_Segue"
-               ReferencedContainer = "container:work_Segue.xcodeproj">
+               BlueprintIdentifier = "FDCAE5491AA9A60900C3F43B"
+               BuildableName = "Informatics.app"
+               BlueprintName = "Informatics"
+               ReferencedContainer = "container:Informatics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDC2B39C1AA98DCA00096643"
-               BuildableName = "work_SegueTests.xctest"
-               BlueprintName = "work_SegueTests"
-               ReferencedContainer = "container:work_Segue.xcodeproj">
+               BlueprintIdentifier = "FDCAE55E1AA9A60900C3F43B"
+               BuildableName = "InformaticsTests.xctest"
+               BlueprintName = "InformaticsTests"
+               ReferencedContainer = "container:Informatics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDC2B39C1AA98DCA00096643"
-               BuildableName = "work_SegueTests.xctest"
-               BlueprintName = "work_SegueTests"
-               ReferencedContainer = "container:work_Segue.xcodeproj">
+               BlueprintIdentifier = "FDCAE55E1AA9A60900C3F43B"
+               BuildableName = "InformaticsTests.xctest"
+               BlueprintName = "InformaticsTests"
+               ReferencedContainer = "container:Informatics.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDC2B3871AA98DCA00096643"
-            BuildableName = "work_Segue.app"
-            BlueprintName = "work_Segue"
-            ReferencedContainer = "container:work_Segue.xcodeproj">
+            BlueprintIdentifier = "FDCAE5491AA9A60900C3F43B"
+            BuildableName = "Informatics.app"
+            BlueprintName = "Informatics"
+            ReferencedContainer = "container:Informatics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDC2B3871AA98DCA00096643"
-            BuildableName = "work_Segue.app"
-            BlueprintName = "work_Segue"
-            ReferencedContainer = "container:work_Segue.xcodeproj">
+            BlueprintIdentifier = "FDCAE5491AA9A60900C3F43B"
+            BuildableName = "Informatics.app"
+            BlueprintName = "Informatics"
+            ReferencedContainer = "container:Informatics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDC2B3871AA98DCA00096643"
-            BuildableName = "work_Segue.app"
-            BlueprintName = "work_Segue"
-            ReferencedContainer = "container:work_Segue.xcodeproj">
+            BlueprintIdentifier = "FDCAE5491AA9A60900C3F43B"
+            BuildableName = "Informatics.app"
+            BlueprintName = "Informatics"
+            ReferencedContainer = "container:Informatics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
