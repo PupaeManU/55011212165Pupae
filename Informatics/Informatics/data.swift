@@ -9,22 +9,27 @@
 import Foundation
 
 class data: NSObject {
-    func getData () ->Array<balloon>{
+    func getData () -> Array<balloon>{
         var tempArray = Array<balloon>()
-        var b1 = balloon(bImage: UIImage(named: "Stitch_1.png"), bName: "Stitch_1")
+        
+        let b1 = balloon(bImage: UIImage(named: "mc.png"), bName: "สาขานิเทศศาสตร์")
         tempArray.append(b1)
         
-        var b2 = balloon(bImage: UIImage(named: "Stitch_2.png"), bName: "Stitch_2")
+        let b2 = balloon(bImage: UIImage(named: "cs.png"), bName: "สาขาวิทยาการคอมพิวเตอร์")
         tempArray.append(b2)
         
-        var b3 = balloon(bImage: UIImage(named: "Stitch_3.png"), bName: "Stitch_3")
+        let b3 = balloon(bImage: UIImage(named: "gis.png"), bName: "สาขาภูมิสารสนเทศศาสตร์")
         tempArray.append(b3)
         
-        var b4 = balloon(bImage: UIImage(named: "Stitch_4.png"), bName: "Stitch_4")
+        let b4 = balloon(bImage: UIImage(named: "is.png"), bName: "สาขาสารสนเทศศาสตร์")
         tempArray.append(b4)
         
-        var b5 = balloon(bImage: UIImage(named: "Stitch_5.png"), bName: "Stitch_5")
+        let b5 = balloon(bImage: UIImage(named: "nmd.png"), bName: "สาขาสื่อนฤมิต")
         tempArray.append(b5)
+        
+        let b6 = balloon(bImage: UIImage(named: "ict.png"), bName: "เทคโนโลยีสารสนเทศ")
+        tempArray.append(b6)
+
         
         
         return tempArray

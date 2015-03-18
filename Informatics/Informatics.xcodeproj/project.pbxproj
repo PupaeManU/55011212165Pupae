@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDC350411AB95C780088FB66 /* cs.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC3503B1AB95C780088FB66 /* cs.png */; };
+		FDC350421AB95C780088FB66 /* gis.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC3503C1AB95C780088FB66 /* gis.png */; };
+		FDC350431AB95C780088FB66 /* ict.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC3503D1AB95C780088FB66 /* ict.png */; };
+		FDC350441AB95C780088FB66 /* is.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC3503E1AB95C780088FB66 /* is.png */; };
+		FDC350451AB95C780088FB66 /* mc.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC3503F1AB95C780088FB66 /* mc.png */; };
+		FDC350461AB95C780088FB66 /* nmd.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC350401AB95C780088FB66 /* nmd.png */; };
 		FDCAE5501AA9A60900C3F43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCAE54F1AA9A60900C3F43B /* AppDelegate.swift */; };
 		FDCAE5551AA9A60900C3F43B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCAE5531AA9A60900C3F43B /* Main.storyboard */; };
 		FDCAE5571AA9A60900C3F43B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCAE5561AA9A60900C3F43B /* Images.xcassets */; };
@@ -30,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FDC3503B1AB95C780088FB66 /* cs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cs.png; path = ../../../../Downloads/cs.png; sourceTree = "<group>"; };
+		FDC3503C1AB95C780088FB66 /* gis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gis.png; path = ../../../../Downloads/gis.png; sourceTree = "<group>"; };
+		FDC3503D1AB95C780088FB66 /* ict.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ict.png; path = ../../../../Downloads/ict.png; sourceTree = "<group>"; };
+		FDC3503E1AB95C780088FB66 /* is.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = is.png; path = ../../../../Downloads/is.png; sourceTree = "<group>"; };
+		FDC3503F1AB95C780088FB66 /* mc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mc.png; path = ../../../../Downloads/mc.png; sourceTree = "<group>"; };
+		FDC350401AB95C780088FB66 /* nmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nmd.png; path = ../../../../Downloads/nmd.png; sourceTree = "<group>"; };
 		FDCAE54A1AA9A60900C3F43B /* Informatics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Informatics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCAE54E1AA9A60900C3F43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCAE54F1AA9A60900C3F43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +113,12 @@
 		FDCAE54D1AA9A60900C3F43B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDC3503B1AB95C780088FB66 /* cs.png */,
+				FDC3503C1AB95C780088FB66 /* gis.png */,
+				FDC3503D1AB95C780088FB66 /* ict.png */,
+				FDC3503E1AB95C780088FB66 /* is.png */,
+				FDC3503F1AB95C780088FB66 /* mc.png */,
+				FDC350401AB95C780088FB66 /* nmd.png */,
 				FDCAE56F1AA9A87D00C3F43B /* Informatics.png */,
 				FDCAE54E1AA9A60900C3F43B /* Info.plist */,
 			);
@@ -204,10 +222,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC350411AB95C780088FB66 /* cs.png in Resources */,
 				FDCAE5551AA9A60900C3F43B /* Main.storyboard in Resources */,
 				FDCAE5701AA9A87D00C3F43B /* Informatics.png in Resources */,
+				FDC350461AB95C780088FB66 /* nmd.png in Resources */,
+				FDC350421AB95C780088FB66 /* gis.png in Resources */,
 				FDCAE55A1AA9A60900C3F43B /* LaunchScreen.xib in Resources */,
+				FDC350451AB95C780088FB66 /* mc.png in Resources */,
+				FDC350441AB95C780088FB66 /* is.png in Resources */,
 				FDCAE5571AA9A60900C3F43B /* Images.xcassets in Resources */,
+				FDC350431AB95C780088FB66 /* ict.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +445,7 @@
 				FDCAE56B1AA9A60900C3F43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDCAE56C1AA9A60900C3F43B /* Build configuration list for PBXNativeTarget "InformaticsTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +454,7 @@
 				FDCAE56E1AA9A60900C3F43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
