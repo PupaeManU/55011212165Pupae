@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD6977491AC5469E007B41EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6977481AC5469E007B41EE /* AppDelegate.swift */; };
+		FD69774B1AC5469E007B41EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69774A1AC5469E007B41EE /* ViewController.swift */; };
+		FD69774E1AC5469E007B41EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD69774C1AC5469E007B41EE /* Main.storyboard */; };
+		FD6977501AC5469E007B41EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD69774F1AC5469E007B41EE /* Images.xcassets */; };
+		FD6977531AC5469E007B41EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6977511AC5469E007B41EE /* LaunchScreen.xib */; };
+		FD69775F1AC5469E007B41EE /* fishAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69775E1AC5469E007B41EE /* fishAnimationTests.swift */; };
+		FD69779D1AC56204007B41EE /* blue-sky.png in Resources */ = {isa = PBXBuildFile; fileRef = FD69779B1AC56204007B41EE /* blue-sky.png */; };
+		FD69779F1AC562A2007B41EE /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD69779E1AC562A2007B41EE /* bird2.png */; };
+		FD6977A11AC56356007B41EE /* click here.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6977A01AC56355007B41EE /* click here.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD6977591AC5469E007B41EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD69773B1AC5469E007B41EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6977421AC5469E007B41EE;
+			remoteInfo = fishAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD6977431AC5469E007B41EE /* fishAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6977471AC5469E007B41EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6977481AC5469E007B41EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD69774A1AC5469E007B41EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD69774D1AC5469E007B41EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD69774F1AC5469E007B41EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD6977521AC5469E007B41EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD6977581AC5469E007B41EE /* fishAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD69775D1AC5469E007B41EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD69775E1AC5469E007B41EE /* fishAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishAnimationTests.swift; sourceTree = "<group>"; };
+		FD69779B1AC56204007B41EE /* blue-sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue-sky.png"; path = "../../../../Downloads/blue-sky.png"; sourceTree = "<group>"; };
+		FD69779E1AC562A2007B41EE /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird2.png; path = ../../../../Downloads/bird2.png; sourceTree = "<group>"; };
+		FD6977A01AC56355007B41EE /* click here.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "click here.png"; path = "../../../../Downloads/click here.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6977401AC5469E007B41EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6977551AC5469E007B41EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD69773A1AC5469E007B41EE = {
+			isa = PBXGroup;
+			children = (
+				FD6977451AC5469E007B41EE /* fishAnimation */,
+				FD69775B1AC5469E007B41EE /* fishAnimationTests */,
+				FD6977441AC5469E007B41EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6977441AC5469E007B41EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD6977431AC5469E007B41EE /* fishAnimation.app */,
+				FD6977581AC5469E007B41EE /* fishAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6977451AC5469E007B41EE /* fishAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FD6977481AC5469E007B41EE /* AppDelegate.swift */,
+				FD69774A1AC5469E007B41EE /* ViewController.swift */,
+				FD69774C1AC5469E007B41EE /* Main.storyboard */,
+				FD69774F1AC5469E007B41EE /* Images.xcassets */,
+				FD6977511AC5469E007B41EE /* LaunchScreen.xib */,
+				FD6977461AC5469E007B41EE /* Supporting Files */,
+			);
+			path = fishAnimation;
+			sourceTree = "<group>";
+		};
+		FD6977461AC5469E007B41EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6977A01AC56355007B41EE /* click here.png */,
+				FD69779E1AC562A2007B41EE /* bird2.png */,
+				FD69779B1AC56204007B41EE /* blue-sky.png */,
+				FD6977471AC5469E007B41EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD69775B1AC5469E007B41EE /* fishAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD69775E1AC5469E007B41EE /* fishAnimationTests.swift */,
+				FD69775C1AC5469E007B41EE /* Supporting Files */,
+			);
+			path = fishAnimationTests;
+			sourceTree = "<group>";
+		};
+		FD69775C1AC5469E007B41EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD69775D1AC5469E007B41EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD6977421AC5469E007B41EE /* fishAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6977621AC5469E007B41EE /* Build configuration list for PBXNativeTarget "fishAnimation" */;
+			buildPhases = (
+				FD69773F1AC5469E007B41EE /* Sources */,
+				FD6977401AC5469E007B41EE /* Frameworks */,
+				FD6977411AC5469E007B41EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishAnimation;
+			productName = fishAnimation;
+			productReference = FD6977431AC5469E007B41EE /* fishAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD6977571AC5469E007B41EE /* fishAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6977651AC5469E007B41EE /* Build configuration list for PBXNativeTarget "fishAnimationTests" */;
+			buildPhases = (
+				FD6977541AC5469E007B41EE /* Sources */,
+				FD6977551AC5469E007B41EE /* Frameworks */,
+				FD6977561AC5469E007B41EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD69775A1AC5469E007B41EE /* PBXTargetDependency */,
+			);
+			name = fishAnimationTests;
+			productName = fishAnimationTests;
+			productReference = FD6977581AC5469E007B41EE /* fishAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD69773B1AC5469E007B41EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD6977421AC5469E007B41EE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD6977571AC5469E007B41EE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD6977421AC5469E007B41EE;
+					};
+				};
+			};
+			buildConfigurationList = FD69773E1AC5469E007B41EE /* Build configuration list for PBXProject "fishAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD69773A1AC5469E007B41EE;
+			productRefGroup = FD6977441AC5469E007B41EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6977421AC5469E007B41EE /* fishAnimation */,
+				FD6977571AC5469E007B41EE /* fishAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD6977411AC5469E007B41EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD69774E1AC5469E007B41EE /* Main.storyboard in Resources */,
+				FD6977A11AC56356007B41EE /* click here.png in Resources */,
+				FD6977531AC5469E007B41EE /* LaunchScreen.xib in Resources */,
+				FD6977501AC5469E007B41EE /* Images.xcassets in Resources */,
+				FD69779D1AC56204007B41EE /* blue-sky.png in Resources */,
+				FD69779F1AC562A2007B41EE /* bird2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6977561AC5469E007B41EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD69773F1AC5469E007B41EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD69774B1AC5469E007B41EE /* ViewController.swift in Sources */,
+				FD6977491AC5469E007B41EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6977541AC5469E007B41EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD69775F1AC5469E007B41EE /* fishAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD69775A1AC5469E007B41EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6977421AC5469E007B41EE /* fishAnimation */;
+			targetProxy = FD6977591AC5469E007B41EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD69774C1AC5469E007B41EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD69774D1AC5469E007B41EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD6977511AC5469E007B41EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6977521AC5469E007B41EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD6977601AC5469E007B41EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD6977611AC5469E007B41EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD6977631AC5469E007B41EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fishAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD6977641AC5469E007B41EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fishAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD6977661AC5469E007B41EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fishAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishAnimation.app/fishAnimation";
+			};
+			name = Debug;
+		};
+		FD6977671AC5469E007B41EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fishAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishAnimation.app/fishAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD69773E1AC5469E007B41EE /* Build configuration list for PBXProject "fishAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6977601AC5469E007B41EE /* Debug */,
+				FD6977611AC5469E007B41EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6977621AC5469E007B41EE /* Build configuration list for PBXNativeTarget "fishAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6977631AC5469E007B41EE /* Debug */,
+				FD6977641AC5469E007B41EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD6977651AC5469E007B41EE /* Build configuration list for PBXNativeTarget "fishAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6977661AC5469E007B41EE /* Debug */,
+				FD6977671AC5469E007B41EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD69773B1AC5469E007B41EE /* Project object */;
+}
